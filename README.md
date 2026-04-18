@@ -8,25 +8,25 @@ The project uses deep learning to create a model used for an interactive conduct
 
 ## 🚀 Features:
 
-🎥 Real-time hand tracking using MediaPipe
- 🧠 Machine learning model for:
-    -Time signature classification
-    -Tempo (BPM) estimation
-🎼 Interactive playback:
-    -Matches conducting tempo to closest song
-    -Evaluates user accuracy in real time
- 📊 High performance:
+### 🎥 Real-time hand tracking using MediaPipe
+### 🧠 Machine learning model for:
+-Time signature classification
+-Tempo (BPM) estimation
+### 🎼 Interactive playback:
+-Matches conducting tempo to closest song
+-Evaluates user accuracy in real time
+### 📊 High performance:
 ~96% accuracy (time signature classification)
 ~6.34 BPM mean absolute error
 
 ## 🏗️ Project Structure:
 
--recording.py      # Collects gesture data using webcam
--train.py          # Preprocesses data & trains ML model
--live.py           # Runs real-time conducting detection
--dataset/          # Stored training data
--songs/            # Audio files for playback
--conductor_ai.h5   # Saved trained model
+### recording.py      - Collects gesture data using webcam
+### train.py          - Preprocesses data & trains ML model
+### live.py           - Runs real-time conducting detection
+### dataset/          - Stored training data
+### songs/            - Audio files for playback
+### conductor_ai.h5   - Saved trained model
 
 ## ⚙️ How It Works:
 
