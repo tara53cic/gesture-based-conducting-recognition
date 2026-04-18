@@ -21,12 +21,12 @@ The project uses deep learning to create a model used for an interactive conduct
 
 ## 🏗️ Project Structure:
 
-### recording.py      - Collects gesture data using webcam
-### train.py          - Preprocesses data & trains ML model
-### live.py           - Runs real-time conducting detection
-### dataset/          - Stored training data
-### songs/            - Audio files for playback
-### conductor_ai.h5   - Saved trained model
+recording.py      - Collects gesture data using webcam
+train.py          - Preprocesses data & trains ML model
+live.py           - Runs real-time conducting detection
+dataset/          - Stored training data
+songs/            - Audio files for playback
+conductor_ai.h5   - Saved trained model
 
 ## ⚙️ How It Works:
 
