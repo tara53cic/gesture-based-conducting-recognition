@@ -19,6 +19,13 @@ The project uses deep learning to create a model used for an interactive conduct
 ~96% accuracy (time signature classification)
 ~6.34 BPM mean absolute error
 
+## Requirements
+
+- Python **3.12** (other versions, e.g. 3.13, are not supported by all dependencies)
+- Necessary libraries listed in the **requirements.txt** file
+- A webcam
+- Windows, macOS, or Linux
+
 ## Project Structure:
 
 - recording.py      - Collects gesture data using webcam <br>
