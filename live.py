@@ -117,8 +117,12 @@ hand_unseen_counter = 0
 mistake_takt, mistake_bpm, total_checks_takt, total_checks_bpm = 0, 0, 0, 0
 flash_message, flash_timer = "", 0
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+for _ in range(5): cap.read()
 pygame.mixer.init()
 
 try:
